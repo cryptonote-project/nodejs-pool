@@ -7,7 +7,7 @@
     "shapeshift": "xmr_btc",
     "xmrTo": true,
     "name": "Monero",
-    "mixIn": 4,
+    "mixIn": 5,
     "shortCode": "XMR"
   },
   "krb": {
@@ -20,21 +20,25 @@
     "shortCode": "KRB"
   },
     "kryptonium": {
-    "funcFile": "./lib/coins/kryptonium.js",
-    "paymentFile": "./payment_systems/kryptonium.js",
+    "funcFile": "./lib/coins/kryp.js",
+    "paymentFile": "./payment_systems/kryp.js",
     "sigDigits": 1000000000,
     "blockTargetTime": 120,
     "name": "Kryptonium Coin",
     "mixIn": 5,
+    "shapeshift": "",
+    "xmrTo": false,
     "shortCode": "KRYP"
   },
   "mynt": {
-    "funcFile": "./lib/coins/mynt.js",
-    "paymentFile": "./payment_systems/mynt.js",
+    "funcFile": "./lib/coins/xsm.js",
+    "paymentFile": "./payment_systems/xsm.js",
     "sigDigits": 1000000000000,
     "blockTargetTime": 120,
     "name": "Mynt Coin",
     "mixIn": 5,
+    "shapeshift": "",
+    "xmrTo": false,
     "shortCode": "MYNT"
   },
   "aeon": {
