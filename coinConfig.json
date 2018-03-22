@@ -19,6 +19,24 @@
     "mixIn": 4,
     "shortCode": "KRB"
   },
+    "kryptonium": {
+    "funcFile": "./lib/coins/kryptonium.js",
+    "paymentFile": "./payment_systems/kryptonium.js",
+    "sigDigits": 1000000000,
+    "blockTargetTime": 120,
+    "name": "Kryptonium Coin",
+    "mixIn": 5,
+    "shortCode": "KRYP"
+  },
+  "mynt": {
+    "funcFile": "./lib/coins/mynt.js",
+    "paymentFile": "./payment_systems/mynt.js",
+    "sigDigits": 1000000000000,
+    "blockTargetTime": 120,
+    "name": "Mynt Coin",
+    "mixIn": 5,
+    "shortCode": "MYNT"
+  },
   "aeon": {
     "funcFile": "./lib/coins/aeon.js",
     "paymentFile": "./payment_systems/aeon.js",
