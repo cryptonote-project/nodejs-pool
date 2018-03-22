@@ -1,0 +1,13 @@
+[Unit]
+Description=Mynt Coin Daemon
+After=network.target
+
+[Service]
+Type=forking
+GuessMainPID=no
+ExecStart=/usr/local/src/mynt/build/release/bin/myntd --rpc-bind-ip 0.0.0.0 p2p-bind-ip 0.0.0.0 --confirm-external-bind --restricted-rpc
+Restart=always
+User=coindaemon
+
+[Install]
+WantedBy=multi-user.target
