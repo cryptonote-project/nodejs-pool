@@ -3,7 +3,7 @@
     "id": 1,
     "module": "pool",
     "item": "address",
-    "item_value": "",
+    "item_value": "XSxQ5FNe8LwGHBDpWgJUacYdfwGLfQ6yuS4WfnpYx7yE8MvXVpvmXhoHrpzNS3ZEpdNyPGHhXNpCcTdgQjGHa6z51RvZzqRQH",
     "item_type": "string",
     "Item_desc": "Address to mine to, this should be the wallet-rpc address."
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "module": "pool",
     "item": "minerTimeout",
-    "item_value": "900",
+    "item_value": "1900",
     "item_type": "int",
     "Item_desc": "Length of time before a miner is flagged inactive."
   },
@@ -115,7 +115,7 @@
     "id": 16,
     "module": "daemon",
     "item": "port",
-    "item_value": "18081",
+    "item_value": "24091",
     "item_type": "int",
     "Item_desc": "Monero Daemon RPC Port"
   },
@@ -155,7 +155,7 @@
     "id": 23,
     "module": "pool",
     "item": "minDifficulty",
-    "item_value": "100",
+    "item_value": "20000",
     "item_type": "int",
     "Item_desc": "Minimum difficulty for VarDiff"
   },
@@ -299,7 +299,7 @@
     "id": 42,
     "module": "payout",
     "item": "shapeshiftPair",
-    "item_value": "xmr_btc",
+    "item_value": "",
     "item_type": "string",
     "Item_desc": "Pair to use in all shapeshift lookups for auto BTC payout"
   },
@@ -315,7 +315,7 @@
     "id": 44,
     "module": "general",
     "item": "allowBitcoin",
-    "item_value": "true",
+    "item_value": "false",
     "item_type": "bool",
     "Item_desc": "Allow the pool to auto-payout to BTC via ShapeShift"
   },
@@ -475,7 +475,7 @@
     "id": 64,
     "module": "general",
     "item": "adminEmail",
-    "item_value": "",
+    "item_value": "support@vaporb2b.com",
     "item_type": "string",
     "Item_desc": "Admin e-mail to send e-mails to when something isn't working right."
   },
